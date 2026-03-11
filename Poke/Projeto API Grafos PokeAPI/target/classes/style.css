@@ -1,0 +1,89 @@
+.cadastro-textField{
+    -fx-background-color: #FFFAFA;
+    -fx-border-color: #d0d0d0;
+    -fx-border-width: 0 0 1 0;
+
+    -fx-padding: 0 0 0 10px;
+
+    -fx-font-family: "Open Sans";
+    -fx-font-size: 13px;
+    -fx-fill: #0d182b;
+
+}
+
+.tituloApp{
+    -fx-font-family: "Open Sans";
+    -fx-font-size: 32px;
+    -fx-fill: #f5f0f0;
+    -fx-font-weight: bold;
+}
+
+.resposta{
+    -fx-font-family: "Open Sans";
+    -fx-font-size: 28px;
+    -fx-fill: #000000;
+    -fx-font-weight: bold;
+}
+
+.botaoValidar {
+    -fx-background-color: #fff;
+    -fx-text-fill: #990302;
+    -fx-font-family: "Open Sans";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+
+    -fx-effect: dropshadow(three-pass-box, rgb(153, 3, 2), 8, 0, 0, 4);
+
+    -fx-translate-y: 0;
+
+    -fx-transition: -fx-effect 0.2s ease, -fx-translate-y 0.2s ease, -fx-background-color 0.2s ease;
+}
+
+.botaoValidar:hover {
+
+    -fx-translate-y: -3px;
+
+    -fx-effect: dropshadow(three-pass-box, rgb(251, 179, 179), 8, 0, 0, 4);
+
+
+}
+
+.nome-pokemon{
+    .tituloApp{
+        -fx-font-family: "Open Sans";
+        -fx-font-size: 16px;
+        -fx-fill: #2e1b1b;
+        -fx-font-weight: bold;
+    }
+}
+
+.meu-dialogo-erro {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ff4d4d;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.meu-dialogo-erro .label {
+    -fx-text-fill: #333333;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 14px;
+}
+
+.meu-dialogo-erro .button {
+    -fx-background-color: #ff4d4d;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+    -fx-background-radius: 5px;
+}
+
+.meu-dialogo-erro .button:hover {
+    -fx-background-color: #ff3333;
+}
+
+/* Estilizando o ícone de erro padrão do JavaFX */
+.meu-dialogo-erro.graphic-container {
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+}
